@@ -39,7 +39,7 @@ public class AdminControllerTest {
     @DisplayName("상품 추가하기 테스트")
     @Test
     void postAdminProduct() {
-        Product product = new Product("lucas", "url", 5000);
+        Product product = new Product("kai", "url", 750000);
 
         var result = productRestAssuredApiSteps.createUrlWithBody("/admin/products/", product);
         assertThat(result.statusCode()).isEqualTo(HttpStatus.CREATED.value());

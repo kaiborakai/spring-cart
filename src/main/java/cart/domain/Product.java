@@ -26,11 +26,6 @@ public class Product {
         return id;
     }
 
-    /*
-    public void setName(String name) {
-        this.name = name;
-    }
-    */
     public String getName() {
         return name;
     }
@@ -39,9 +34,7 @@ public class Product {
         return imageUrl;
     }
 
-    public void setPrice(Integer price) {
-        this.price = price;
-    }
+    public void setPrice(Integer price) { this.price = price; }
 
     public Integer getPrice() {
         return price;

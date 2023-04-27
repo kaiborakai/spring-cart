@@ -11,8 +11,6 @@ import java.net.URI;
 
 @Controller
 @RequestMapping("/admin")
-
-
 public class ProductAdminController {
     private final ProductAdminService productAdminService;
 
